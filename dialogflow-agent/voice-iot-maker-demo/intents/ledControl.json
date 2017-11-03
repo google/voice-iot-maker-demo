@@ -1,0 +1,44 @@
+{
+  "id": "0f32b852-8d8d-4d49-bd16-a4d7dddde82a",
+  "name": "ledControl",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ledControl",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b28920b5-3bc1-4e3b-acd5-4d447e879c27",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "ledState",
+          "value": "$ledState",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Try again?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Turning the light $ledState."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1508789597,
+  "fallbackIntent": false,
+  "events": []
+}

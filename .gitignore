@@ -1,0 +1,15 @@
+# ignore OSX artifacts
+*.DS_Store
+
+# ignore Node files/folders
+node_modules
+
+# ignore created logs
+*.log
+
+ignore Firebase files
+.firebaserc
+
+# ignore local settings
+config.js
+

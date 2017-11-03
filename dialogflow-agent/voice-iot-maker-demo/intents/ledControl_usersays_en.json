@@ -1,0 +1,38 @@
+[
+  {
+    "id": "653d47f8-90ba-44af-a4ac-f2e03ac1bf19",
+    "data": [
+      {
+        "text": "turn the LED ",
+        "userDefined": false
+      },
+      {
+        "text": "on",
+        "alias": "ledState",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "aae618db-6366-4e9f-9b11-744b460cbef7",
+    "data": [
+      {
+        "text": "turn the light ",
+        "userDefined": false
+      },
+      {
+        "text": "on",
+        "alias": "ledState",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
