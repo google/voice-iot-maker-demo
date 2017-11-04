@@ -40,7 +40,7 @@ In order to test how Firebase will run and serve your code, you'll want to insta
 
     Be sure to pick the project that you created in the Actions on Google console. (If you haven't created an app yet, you can go to the [Firebase console](https://console.firebase.google.com), and start a new project there.)
 
-    **Important!** Be sure that you don't replace the `package.json` or `index.js` files during this setup, or else you'll need to re-download them before continuing.
+    **Important!** Be sure that you don't replace the `package.json` or `index.js` files during this setup, or else you'll need to re-download them before continuing. However, you do want to answer `Y` when asked about installing dependencies through npm.
 
 1. Now, you'll want to head to the [Google Cloud Platform console](http://cloud.google.com/console), click on *Storage* on the left side, and make sure that billing is enabled.
 
