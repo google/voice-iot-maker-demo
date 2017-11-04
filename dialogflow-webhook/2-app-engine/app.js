@@ -96,7 +96,7 @@ function handleUserRequest (ledState) {
     }
     if (ledState !== 'on' && ledState !== 'off') {
       // tell the user that their request was invalid
-      return resolve(`I don't know how to turn the light ${ledState}`)
+      return resolve(`I don't know how to turn the light ${ledState}`);
     }
 
     // make the call to the Particle API, and return the new user response
