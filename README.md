@@ -155,7 +155,7 @@ This application is just a taste of what's possible — how far you take this fr
 - [Actions on Google: Invocation and Discovery](https://developers.google.com/actions/discovery/)
 - [Actions on Google: Dialogflow](https://developers.google.com/actions/dialogflow/)
 - [Sample Google Actions](https://developers.google.com/actions/samples/)
-- [Google/Particle partnership](https://docs.particle.io/tutorials/integrations/google-cloud-platform/)
+- [Particle/Google Cloud Platform integration](https://docs.particle.io/tutorials/integrations/google-cloud-platform/)
 
 ## Acknowledgements
 
