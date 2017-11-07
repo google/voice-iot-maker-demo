@@ -36,7 +36,7 @@ It's handy to have a breadboard, some hookup wire, and a bright LED, and the exa
 You'll also need accounts with:
 
 - [Dialogflow](https://dialogflow.com/) (for understanding user voice queries)
-- [Google Cloud](https://cloud.google.com/)* (for hosting the webhook webapp/service)
+- [Google Cloud](https://cloud.google.com/) (for hosting the webhook webapp/service)
 - [Particle Cloud](https://build.particle.io/build/) (for deploying your Photon code and communicating with the Particle API)
 
 If you're just starting out, or if you're already comfortable with a microservices approach, you can use the `1-firebase-functions` example — it's easy to configure and requires no other infrastructure setup. If you'd prefer to run it on a full server environment, or if you plan to build out a larger application from this, use the `2-app-engine` example (which can also run on any other server of your choosing).
