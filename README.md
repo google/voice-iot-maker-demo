@@ -172,6 +172,6 @@ This has been a collaboration with the [Google AIY Projects](https://aiyprojects
 - Jess Holbrook
 - Jordan Barber
 - Cindy Teruya
-- [David Stalnaker](davidstalnaker)
+- [David Stalnaker](https://github.com/davidstalnaker)
 
 Special thanks to [Sabah Kosoy](https://github.com/sabahkosoy), [Jeff Nusz](https://github.com/customlogic), [Michael Cavalea](https://github.com/callmecavs), and [Jeff Gray](https://github.com/j3ffgray).
