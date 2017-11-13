@@ -2,6 +2,16 @@
 
 This is the example code for the Dialogflow/Particle webhook application, designed to be deployed to [Google App Engine](https://cloud.google.com/appengine/).
 
+## Local settings
+
+This application assumes that you're keeping your Particle access token and Photon's device ID in a file called `config.js`. However, you'll notice that there isn't one included — because you'll need to fill our your own! (And, it keeps the sensitive keys out of source control — always a good practice.)
+
+To start, copy the sample settings file into a new file (in the same directory):
+
+    cp ./config.sample.js ./config.js
+
+You can grab the `deviceID` and `accessToken` values from the Particle Cloud Console.
+
 ## Setup instructions
 
 Install the required NPM libraries that this application relies on:
@@ -21,16 +31,6 @@ You should see it reply back with `It works!` — and if you see that, well, you
 **Note**: Included in this bundle is an alias for running a linter on your JS files. It'll even auto-fix the non-compliant lines. Access it using:
 
     npm run lint
-
-## Local settings
-
-This application assumes that you're keeping your Particle access token and Photon's device ID in a file called `config.js`. However, you'll notice that there isn't one included — because you'll need to fill our your own! (And, it keeps the sensitive keys out of source control — always a good practice.)
-
-To start, copy the sample settings file into a new file (in the same directory):
-
-    cp ./config.sample.js ./config.js
-
-You can grab the `deviceID` and `accessToken` values from the Particle Cloud Console.
 
 ## Testing
 
