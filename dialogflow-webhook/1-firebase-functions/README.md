@@ -2,16 +2,6 @@
 
 This is the example code for the Dialogflow/Particle webhook application, designed to be deployed to [Cloud Functions for Firebase](https://firebase.google.com/docs/functions/).
 
-## Setup instructions
-
-Install the required NPM libraries that this application relies on (from the `functions` directory):
-
-    npm install
-
-**Note**: Included in this bundle is an alias for running a linter on your JS files. It'll even auto-fix the non-compliant lines! Access it using:
-
-    npm run lint
-
 ## Local settings
 
 This application assumes that you‘re keeping your Particle access token and Photon’s device ID in a file called `config.js`. However, you‘ll notice that one isn’t included — because you'll need to fill out your own. (This keeps the sensitive keys out of source control — always a good practice.)
@@ -21,6 +11,16 @@ To start, copy the sample settings file into a new file (in the same directory):
     cp ./config.sample.js ./config.js
 
 You can grab the `deviceID` and `accessToken` values from the Particle Cloud Console.
+
+## Setup instructions
+
+Install the required NPM libraries that this application relies on (from the `functions` directory):
+
+    npm install
+
+**Note**: Included in this bundle is an alias for running a linter on your JS files. It'll even auto-fix the non-compliant lines! Access it using:
+
+    npm run lint
 
 ## Deploying
 
